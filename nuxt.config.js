@@ -37,6 +37,11 @@ export default {
   modules: [],
 
   /*
+   ** Disable compressor
+   */
+  compressor: false,
+
+  /*
    ** Build configuration
    */
   build: {
