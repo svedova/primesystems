@@ -39,7 +39,11 @@ export default {
   /*
    ** Disable compressor
    */
-  compressor: false,
+  render: {
+    etag: false,
+    // Disabled compression
+    compressor: false
+  },
 
   /*
    ** Build configuration
