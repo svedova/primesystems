@@ -58,27 +58,8 @@ export default {
   },
   
   modules: [
-    "@nuxtjs/style-resources",
-    "@nuxtjs/axios",
-    // '@nuxtjs/component-cache',
-    "@nuxtjs/pwa",
-    "@nuxtjs/sitemap",
-    "@nuxtjs/google-analytics",
-    // '@nuxtjs/vuetify',
-    // treeshakable moment module
-    "@nuxtjs/moment",
-    // purge away some unused css
-    "nuxt-purgecss",
-    // save performance loading webfonts
-    "nuxt-webfontloader",
-    // nicely load single icons from fontawesome to save load
-    "nuxt-fontawesome",
+    "@cross-env",
     [
-      "storyblok-nuxt",
-      {
-        accessToken: "kEPmqRr5YAYH5jQM3OG9vwtt",
-        cacheProvider: "memory"
-      }
-    ]
+      "nuxt"    ]
   ],
 };
