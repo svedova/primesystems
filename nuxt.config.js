@@ -58,7 +58,7 @@ export default {
   },
   
   modules: [
-    "@cross-env",
+    "cross-env",
     [
       "nuxt"    ]
   ]
