@@ -61,5 +61,5 @@ export default {
     "@cross-env",
     [
       "nuxt"    ]
-  ],
+  ]
 };
